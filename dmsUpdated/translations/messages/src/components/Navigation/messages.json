@@ -1,0 +1,38 @@
+[
+<<<<<<< HEAD
+ 
+=======
+  {
+    "id": "app.components.navigation.profileTitle",
+    "defaultMessage": "Profile"
+  },
+>>>>>>> d8733ed4e81889ba9b048acbe8afc5adbdaeea99
+  {
+    "id": "app.components.navigation.shopTitle",
+    "defaultMessage": "Shop"
+  },
+  {
+    "id": "app.components.navigation.filebrowserTitle",
+    "defaultMessage": "Filebrowser"
+  },
+  {
+    "id": "app.components.navigation.timelineTitle",
+    "defaultMessage": "Timeline"
+<<<<<<< HEAD
+  },
+ {
+    "id": "app.components.navigation.overview",
+    "defaultMessage": "Overview"
+},
+{
+    "id": "app.components.navigation.assistant",
+    "defaultMessage": "Assistant"
+},
+ {
+    "id": "app.components.navigation.services",
+    "defaultMessage": "Servic"
+}
+=======
+  }
+>>>>>>> d8733ed4e81889ba9b048acbe8afc5adbdaeea99
+]

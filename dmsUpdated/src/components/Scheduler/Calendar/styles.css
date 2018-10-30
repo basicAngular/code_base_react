@@ -1,0 +1,16 @@
+.rbc-event {
+    background: #82c203 !important;
+    margin: 0 10px;
+    border-radius: 3px;    
+}
+.rbc-today {
+    background-color: #f7f7f7 !important;
+}
+
+.rbc-toolbar button:active, .rbc-toolbar button.rbc-active {
+    background-image: none;
+    box-shadow: none;
+    background-color: #82c203 !important;
+    border-color: #82c203 !important;
+    color: #fff;
+}

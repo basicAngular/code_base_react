@@ -1,0 +1,31 @@
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .loader {
+        .spinner-wave-margin-correction div {
+            margin-left: 1px;
+            margin-right: 1px;
+        }
+
+        .big-spinner {
+            height: 100px;
+            width: 100px;
+
+            div {
+                width: 15px;    
+            }
+        }
+    }
+
+}

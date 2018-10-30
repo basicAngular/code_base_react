@@ -1,0 +1,21 @@
+.extension-date-form {
+    border: 0 !important;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.extension-date-form:hover {
+    background-color: #fff !important;
+}
+
+.rw-widget {
+    border-color: #e5e6e7 !important;
+}
+
+.rw-widget>.rw-select {
+    border-color: #e5e6e7 !important;
+}
+
+.rw-multiselect, .rw-combobox input.rw-input, .rw-datetimepicker input.rw-input, .rw-numberpicker input.rw-input {
+    box-shadow: none !important;
+}

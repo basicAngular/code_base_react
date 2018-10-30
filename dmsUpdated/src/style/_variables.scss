@@ -1,0 +1,72 @@
+// Basic Colors
+$navy: #2182b1;       // Primary color
+$dark-gray: #c2c2c2;  // Default color
+$blue: #1c84c6;       // Success color
+$lazur: #23c6c8;      // Info color
+$yellow: #f8ac59;     // Warrning color
+$red: #ED5565;        // Danger color
+$green: #82c203;
+$white: #fff;
+$grey: #5E5E5E;
+
+$krempel: #cfd003;
+$primary_base: $krempel;
+$primary_lightdarker: #9C9C29;
+$primary_darker: #878701;
+$primary_lightlighter: #E8E83C;
+$primary_lighter: #E8E86A;
+
+
+$secondary_a_base: #82C203;
+$secondary_a_lightdarker: #6E9226;
+$secondary_a_darker: #547E01;
+$secondary_a_lightlighter: #A9E13B;
+$secondary_a_lighter: #B8E167;
+
+
+$secondary_b_base: #A7025F;
+$secondary_b_lightdarker: #7D2155;
+$secondary_b_darker: #6C013E;
+$secondary_b_lightlighter: #D3378F;
+$secondary_b_lighter: #D361A1;
+
+
+$complementary_base: #5D098B;
+$complementary_lightdarker: #4E1F68;
+$complementary_darker: #3B035A;
+$complementary_lightlighter: #943BC5;
+$complementary_lighter: #A160C5;
+
+
+
+// Various colors
+$text-color: #676a6c;   // Body text
+$gray: #f3f3f4;         // Background wrapper color
+$light-gray: #D1DADE;   // Default label, badget
+$label-badget-color: #5E5E5E;
+$light-blue:#f3f6fb;
+
+// Spiner color and margin
+$spin-color: $green;
+$spin-margin: 0 auto;
+
+
+// IBOX colors ( default panel colors)
+$border-color: #e7eaec;     // IBox border
+$ibox-title-bg:#ffffff;     // IBox Background header
+$ibox-content-bg:#ffffff;   // IBox Background content
+
+//Sidebar width
+$sidebar-width: 220px;
+
+// Boxed layout width
+$boxed-width: 1200px;
+$boxed-backgound: url('./patterns/shattered.png');
+
+//Border radius for buttons
+$btn-border-radius: 3px;
+
+//Navigation
+$nav-bg: $white;
+$nav-profil-pattern: white;
+$nav-text-color: #bab9c9;

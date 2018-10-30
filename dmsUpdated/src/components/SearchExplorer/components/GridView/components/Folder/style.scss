@@ -1,0 +1,18 @@
+@import '../../../../../../style/variables.scss';
+
+.folder .icon i {
+    transition: color 0.5s ease;
+}
+
+.folder:hover .icon i {
+    color: $primary_base;
+}
+
+
+.folder {
+    transition: all 0.5s ease;
+}
+
+.folder:hover {
+    transform: scale(1.1);
+}

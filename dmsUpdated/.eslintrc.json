@@ -1,0 +1,33 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module",
+      "ecmaFeatures": {
+          "jsx": true,
+          "experimentalDecorators": true   
+      }
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": [
+        "react-app",
+        "plugin:react/recommended"
+    ],
+    "rules": {
+        "indent": ["error", 4],
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"],
+        "no-console": [0]
+    },
+    "globals": {
+        "$": true,
+        "module": true,
+        "require": true,
+        "document": true,
+        "FormData": true,
+        "console": true,
+        "it": true
+    }
+}

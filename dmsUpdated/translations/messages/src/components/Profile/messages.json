@@ -1,0 +1,14 @@
+[
+  {
+    "id": "app.components.profile.personalInfo",
+    "defaultMessage": "Personal Info"
+  },
+  {
+    "id": "app.components.profile.accountInfo",
+    "defaultMessage": "Account Info"
+  },
+  {
+    "id": "app.components.profile.bankInfo",
+    "defaultMessage": "Bank Info"
+  }
+]

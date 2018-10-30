@@ -1,0 +1,64 @@
+@import '../../../../../../style/variables.scss';
+@import '../../../../../../style/colors.scss';
+
+.file {
+    font-size: 1rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    background-color: #fff;
+    height: 100%;
+    margin-bottom: 0;
+
+    &:hover {
+        transform: scale(1.1);
+        .icon i {
+            color: $secondary_b_base;
+        }
+    }
+
+    .icon {
+        text-align: center;
+        background-color: $white;
+        padding: 15px 10px;
+        i {
+            transition: color 0.5s ease;
+            font-size: 7em;
+            // color: #dadada;
+            color: #FDDF85 ;
+        }
+    }
+
+    .fileName {
+        padding: 10px;
+        border-top: 1px solid #e7eaec;
+        background-color: #f8f8f8;
+    }
+
+    .border {
+        position: absolute;
+        display: inline-block;
+        width: 0;
+        height: 0;
+        line-height: 0;
+        border: 0.6em solid transparent;
+        border-right: 0.6em solid #f1f1f1;
+        border-bottom: 0.6em solid #f1f1f1;
+        right: 0em;
+        bottom: 0em;
+    }
+
+    .isSOS {
+        color: $red;
+    }
+    .isFavorite {
+        color: $yellow;
+    }
+    .isTaxRelevant {
+        color: $blue;
+    }
+
+    .buttonContainer {
+        display: flex;
+        justify-content: space-around;
+    }
+}

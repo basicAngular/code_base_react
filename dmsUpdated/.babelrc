@@ -1,0 +1,39 @@
+{
+    "presets": [
+      [
+        "env",
+        {
+          "modules": false
+        }
+      ],
+      "es2015",
+<<<<<<< HEAD
+      "react-app"
+=======
+      "react-app",
+>>>>>>> d8733ed4e81889ba9b048acbe8afc5adbdaeea99
+    ],
+    "env": {
+      "production": {
+        "only": [
+          "src"
+        ],
+        "plugins": [
+          [
+            "react-intl", {
+              "messagesDir": "translations/messages",
+              "enforceDescriptions": false
+            }
+          ],
+          [
+            "transform-decorators-legacy",
+            "transform-object-rest-spread",
+            "transform-runtime",
+            "transform-react-remove-prop-types",
+            "transform-react-constant-elements",
+            "transform-react-inline-elements"
+          ]
+        ]
+      }
+    }
+}
